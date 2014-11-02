@@ -24,4 +24,5 @@ $sql = "CREATE TABLE `registry` (
 
 echo mysql_query($sql) or die(mysql_error());
 echo "Database created successfully!";
+
 ?>
